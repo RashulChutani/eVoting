@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.PostQuestion-button {
+    font-family: 'Source Code Pro';
+    margin: 3%;
+    width: fit-content;
+    background: #F9AA33;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.PostQuestion-text {
+    
+    font-family: 'Source Code Pro';
+    cursor: pointer;
+    border-radius: 50px;
+    padding: var(--s) var(--xl);
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    text-shadow:
+    -1px -1px 0 #333333,
+    1px -1px 0 #333333,
+    -1px 1px 0 #333333,
+    1px 1px 0 #333333;
+    background: #F2994A;
+    color: #FFFFFF;
+    mix-blend-mode: normal; 
+    font-size: var(--l);
+}
+
+.PostQuestion-input{
+    font-size: 14px;
+    padding: var(--s) var(--m);
+    background-color: white;
+    width: 80%;
+    margin: 20px;
+    border: var(--darkgrey) 1px solid;
+    border-radius: var(--xs) 0 0 var(--xs);
+    transition: box-shadow 0.1s;
+    margin-bottom: 0px;
+}

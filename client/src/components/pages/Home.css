@@ -1,0 +1,47 @@
+.Home-content-heading {
+    /* position: absolute; */
+    padding: 5px;
+    margin-bottom: 10px;
+    /* margin-bottom: 2%;
+    left: 0px;
+    top: 57px; 
+    right: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: var(--m); */
+    background-size: cover;
+    min-height: 400px;
+    /* min-width: 1000px; */
+    background: #00ccff;
+}
+
+.Home-margin {
+    margin:5px;
+}
+
+.Home-head {
+    font-weight: 1000;
+    color: #FFFFFF;
+    font-size: var(--l);
+}
+
+.Home-extra{
+    margin: 50px;
+}
+
+.Home-maxwidth{
+    max-width: 1200px;
+}
+
+.Home-content {
+    width: 974px; 
+    margin: 0 auto; 
+}
+
+.Home-centered{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Home-left{
+    max-width: 800px;
+}

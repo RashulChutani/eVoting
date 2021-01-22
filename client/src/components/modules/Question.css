@@ -1,0 +1,29 @@
+.Question-appearance{
+    display: flex;
+    font-size: var(--m);
+    background: rgb(242, 242, 242);
+    padding: 10px;
+}
+.temp{
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+.Card-appearance{
+    margin: 30px;
+    background: #BDBDBD;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* .Question-width{
+    max-width: 50vw;
+} */
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}

@@ -1,0 +1,44 @@
+.Profile-avatarContainer {
+  padding: 0 35%;
+}
+
+.Profile-name {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.Profile-line {
+  border-color: var(--grey);
+}
+
+.Profile-subContainer {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.Profile-subContainer + .Profile-subContainer {
+  margin-left: var(--m);
+}
+
+.Profile-subTitle {
+  font-weight: 300;
+  font-size: 24px;
+  margin: var(--m) var(--s);
+}
+
+.Profile-username{
+  margin: 10px;
+  font-size: var(--ml);
+}
+
+.Profile-heading{
+  margin-left: 3%;
+}
+
+.Profile-login{
+  position: absolute;
+  top: 0.2%;
+  right:100px;
+  /* font-size: 20px; */
+  /* color: #ffffff; */
+}

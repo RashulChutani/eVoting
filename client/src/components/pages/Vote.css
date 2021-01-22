@@ -1,0 +1,10 @@
+.Vote-card{
+    padding: 10px;
+    border-style: solid;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.Vote-add{
+    padding: 5px;
+}

@@ -1,0 +1,45 @@
+.Post-input {
+    font-size: 14px;
+    padding: var(--s) var(--m);
+    /* height: 450px; */
+    width: 80%;
+    margin: 20px;
+    border: var(--darkgrey) 1px solid;
+    border-radius: var(--xs) 0 0 var(--xs);
+    transition: box-shadow 0.1s;
+    margin-bottom: 0px;
+  }
+
+.Post-img{
+  margin: -3px;
+  margin-top: 0px;
+  padding: 0;
+  height: 30px;
+}
+.Post-prompt{
+  text-align: justify;
+  margin: 20px;
+  font-style: italic;
+}
+.Post-input:focus-within {
+    border-color: var(--primary--dim);
+    box-shadow: 0 0 0 var(--xs) rgba(0, 123, 255, 0.25);
+  }
+  
+  .Post-button {
+    margin: 20px;
+    margin-top: 0px;
+    font-size: var(--l);
+    width:100px;
+    height: 50px;
+    color: var(--primary);
+    border: var(--primary) 1px solid;
+    border-radius: 0 var(--xs) var(--xs) 0;
+    background: none;
+    transition: color 0.1s, background 0.1s;
+  }
+  
+  .Post-button:hover {
+    color: var(--white);
+    background-color: var(--primary);
+  }
